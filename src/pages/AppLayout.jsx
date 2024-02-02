@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom'
 
 const AppLayout = () => {
   return (
-    <div>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
     <NavBar />
     <Outlet />
         

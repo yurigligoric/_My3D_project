@@ -6,9 +6,9 @@ import Character from '../models/Character'
 
 const Home = () => {
   return (
-    <section style={{ width: "85vw", height: "85vh" }}>
+    <section className='w-full h-screen relative' style={{margin: '-220px'}}>
       <Canvas className='w-full max-h-full bg-transparent' camera={{near: 0.1, far: 1000}}>
-        <Suspense>
+        <Suspense>  
         <directionalLight position={[1, 1, 1] } intensity={1} />
             <ambientLight intensity={0.5} />
             
