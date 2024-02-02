@@ -8,7 +8,7 @@ const Character = () => {
 
     const characterS = useGLTF(character)
   return (
-    <mesh position={[1, -4, -2]} scale={[1.003, 1.003, 1.003 ]}>
+    <mesh position={[4, -4, -1]} scale={[1.003, 1.003, 1.003 ]}>
 
       <primitive object={characterS.scene} />
     </mesh>
